@@ -1,7 +1,26 @@
 {
-  "name": "jira-daily-sync",
+  "name": "dailyforjiracard",
+  "version": "1.0.0",
   "private": true,
+  "description": "auto create jira card",
+  "keywords": [
+    "jira",
+    "card",
+    "issues",
+    "daily-task"
+  ],
+  "homepage": "https://github.com/chandra-jonathan/daily-to-do-list#readme",
+  "bugs": {
+    "url": "https://github.com/chandra-jonathan/daily-to-do-list/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandra-jonathan/daily-to-do-list.git"
+  },
+  "license": "ISC",
+  "author": "chandra jonathan",
   "type": "module",
+  "main": "index.js",
   "scripts": {
     "sync:today": "node scripts/sync-today.js"
   },
@@ -9,5 +28,6 @@
     "axios": "^1.8.0",
     "dotenv": "^16.4.0",
     "js-yaml": "^4.1.0"
-  }
+  },
+  "devDependencies": {}
 }
