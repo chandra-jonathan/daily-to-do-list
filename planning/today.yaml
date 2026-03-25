@@ -1,0 +1,27 @@
+date: 2026-03-26
+projectKey: CATHAY
+tasks:
+  - title: "國泰 - API spec"
+    bucket: "High"
+    issueType: "Task"
+    labels: ["daily-sync", "cathay", "api-spec"]
+    description: "Prepare or update API specification for Cathay."
+
+  - title: "國泰 - 後台"
+    bucket: "High"
+    issueType: "Task"
+    labels: ["daily-sync", "cathay", "backend"]
+    description: "Backend development work for Cathay."
+
+  - title: "Vizuro - bug"
+    bucket: "Medium"
+    projectKey: "EZYM"
+    issueType: "Bug"
+    labels: ["daily-sync", "vizuro", "bug"]
+    description: "Investigate and fix Vizuro bug."
+
+  - title: "Planning"
+    bucket: "Low"
+    issueType: "Task"
+    labels: ["daily-sync", "planning"]
+    description: "Daily planning and task alignment."
